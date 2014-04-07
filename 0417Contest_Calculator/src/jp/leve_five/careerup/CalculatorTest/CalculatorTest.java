@@ -63,5 +63,23 @@ public class CalculatorTest {
 	public void test数字の１と１をmultiplyメソッドに渡すと１が返る(){
 		assertEquals(1, calculator.multiply(1, 1));
 	}
+	@Test
+	public void test数字の１と2をmultiplyメソッドに渡すと2が返る(){
+		assertEquals(2, calculator.multiply(1, 2));
+	}
+	@Test
+	public void test数字の4と5をmultiplyメソッドに渡すと20が返る(){
+		assertEquals(20, calculator.multiply(4, 5));
+	}
+	@Test
+	public void test数字の20と300をmultiplyメソッドに渡すと6000が返る(){
+		assertEquals(6000, calculator.multiply(20, 300));
+	}
+	@Test
+	public void test数字のマイナス８０と５をmultiplyメソッドに渡すとマイナス４００が返る(){
+		assertEquals(-400, calculator.multiply(-80, 5));
+	}
+	
+	
 	
 }
