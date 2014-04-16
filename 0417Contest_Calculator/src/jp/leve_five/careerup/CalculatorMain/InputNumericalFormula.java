@@ -17,7 +17,6 @@ public class InputNumericalFormula {
 		} catch (ScriptException e) {
 			throw new RuntimeException("不正な数式が含まれています。");
 		}
-		System.out.println(result);
 		return result;
 	}
 }
