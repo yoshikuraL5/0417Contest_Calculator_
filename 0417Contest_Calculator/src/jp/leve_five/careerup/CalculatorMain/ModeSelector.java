@@ -12,7 +12,7 @@ public class ModeSelector {
 			System.out.println("今月の運勢は、\n【" + divinationResult + "】");
 		} else if (Pattern.matches(
 				"[\\-*[1-9]+[\\+\\-\\*\\/\\(\\)]+\\-[1-9]+]+", inputData)) {
-			result = new InputNumericalFormula().calculate(inputData);
+			result = new NumericalFormula().calculate(inputData);
 			System.out.println("数式の結果は：【" + result + "】です！");
 		} else {
 			throw new RuntimeException("計算も占いもできません！入力値を見なおしてください");

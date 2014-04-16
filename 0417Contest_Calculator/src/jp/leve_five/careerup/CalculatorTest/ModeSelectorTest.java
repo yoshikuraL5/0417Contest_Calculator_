@@ -1,7 +1,7 @@
 package jp.leve_five.careerup.CalculatorTest;
 
 import static org.junit.Assert.*;
-import jp.leve_five.careerup.CalculatorMain.InputNumericalFormula;
+import jp.leve_five.careerup.CalculatorMain.NumericalFormula;
 import jp.leve_five.careerup.CalculatorMain.ModeSelector;
 
 import org.junit.Before;

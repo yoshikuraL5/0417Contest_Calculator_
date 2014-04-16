@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 import javax.script.*;
 
-public class InputNumericalFormula {
+public class NumericalFormula {
 
 	public double calculate(String inputFomula) {
 		double result = 0;

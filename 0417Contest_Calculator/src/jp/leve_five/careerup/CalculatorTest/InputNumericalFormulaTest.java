@@ -1,16 +1,16 @@
 package jp.leve_five.careerup.CalculatorTest;
 
 import static org.junit.Assert.*;
-import jp.leve_five.careerup.CalculatorMain.InputNumericalFormula;
+import jp.leve_five.careerup.CalculatorMain.NumericalFormula;
 
 import org.junit.Before;
 import org.junit.Test;
 
 public class InputNumericalFormulaTest {
-	InputNumericalFormula inputNumericalFomula;
+	NumericalFormula inputNumericalFomula;
 	@Before
 	public void before() {
-		inputNumericalFomula = new InputNumericalFormula();
+		inputNumericalFomula = new NumericalFormula();
 	}
 
 	@Test
